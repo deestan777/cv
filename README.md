@@ -1,12 +1,12 @@
 # cv
 
 
--Denysov Stanislav
--June 16, 1991, 
--Ukraine, Kyiv, Solomensky district 
--Radchenko street, 12, 67
--38(073) 777-12-67 
--deestan@ymail.com
+- Denysov Stanislav
+- June 16, 1991, 
+- @ Ukraine, Kyiv, Solomensky district 
+- $ Radchenko street, 12, 67
+- % 38(073) 777-12-67 
++ ^ deestan@ymail.com
 -https://github.com/deestan777
 
 Target : Front-end developer.
