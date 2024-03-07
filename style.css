@@ -150,8 +150,7 @@ svg:hover {
 
 
     border-radius: 50%;
-    box-shadow: 150px 57px 200px rgba(0, 166, 255, 0.35), -5px -10px 60px #2a2881, 5px 10px 120px #21174f, -5px 10px 220px #104153, 5px -10px 220px #0a3336;
-
+    box-shadow: 0px 0px 50px rgb(60 0 255), -5px -10px 60px #2a2881, 5px 10px 120px #21174f, -5px 10px 220px #104153, 5px -10px 220px #0a3336;
 }
 h3 {
     font-size: 20px;
