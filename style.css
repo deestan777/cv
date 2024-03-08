@@ -5,13 +5,15 @@ html {
     background: #1f1f1f;
 }
 body {
-    font-family: "Inter Semi Bold", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
     overflow-y: scroll;
     overscroll-behavior-x: none;
     margin: 0 auto;
     padding: 0;
     color: #ffffff;
-    font-weight: 700;
+
     text-shadow: 0 0 18px #2a51a8, 0 0 5px #007bff;
     background-image: url("./img/bg.png");
     background-color: rgba(17, 17, 21, 0.69);
