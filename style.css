@@ -97,7 +97,7 @@ h2 {
     gap: 36px;
     right: 0px;
     margin: 1em;
-    padding: 3em 2.2em 1em 1em;
+    padding: 3em 0.192em 1em 1em;
     text-align: center;
 }
 
@@ -216,10 +216,7 @@ h3 {
     .container {
         max-width: 768px;
     }
-    svg {
-       height: 29px;
-        width: 29px;
-    }
+
     /*.flex, .flex-top {*/
     /*    display: flex;*/
     /*    flex-direction: column;*/
@@ -237,10 +234,7 @@ h3 {
 
 
 @media (min-width: 0px) and (max-width: 420px){
-    svg {
-        height: 26px;
-        width: 26px;
-    }
+
 
 
 }
