@@ -1,4 +1,5 @@
 * {
+
     box-sizing: border-box;
 }
 html {
@@ -17,11 +18,11 @@ body {
     text-shadow: 0 0 18px #2a51a8, 0 0 5px #007bff;
     background-image: url("./img/bg.png");
     background-color: rgba(17, 17, 21, 0.69);
-    background-blend-mode: multiply; /* Adjust blend mode here */
+    background-blend-mode: color-dodge; /* Adjust blend mode here */
     box-shadow: inset 0 0 80px black;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     height: 100%;
     min-width: min-content;
     min-height: 100vh;
@@ -32,7 +33,7 @@ span, p, h1, a, ul, li {
 }
 
 span,p,a,li {
-    font-size: 12px;
+    font-size: 1.1rem;
 }
 
 .container {
@@ -42,16 +43,29 @@ span,p,a,li {
     margin: 0px auto;
     border-right: 3px solid ;
     border-image: linear-gradient(to bottom, darkblue,  #003096, #0d2bb2, #2f2275) 1;
-    padding: 45px;
     border-radius: 5px;
     box-shadow: -5px -10px 20px #2a2881,5px 10px 20px #21174f, -5px 10px 20px #082529, 5px -10px 20px #0a3336;
 }
 
-
+.flags {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 99999999999;
+    justify-content: center;
+    padding: 5px;
+}
+.flags ul {
+    display: flex;
+    list-style: none;
+    gap:15px;
+}
 
 h1 {
-
-    font-size: 38px;
+padding: 0;
+    font-size: 3rem;
     margin: 0;
 }
 h2 {
@@ -65,25 +79,41 @@ h2 {
     justify-content: space-between;
     flex:3;
     gap: 2.5px;
-    padding: 21px 0px 0px 0px;
+    align-items: flex-start;
     position: relative;
     z-index: 99999;
     text-align: justify-all;
     top: 0;
+}
 
+.social-icons {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0 0 10px black;
+    z-index: 99999999;
+    top: 0;
+    gap: 36px;
+    right: 0px;
+    padding: 1em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .contact-info a {
 
     text-decoration: none;
     color: #007bff;
-    padding-right: 17px;
 
 }
 .contact-info a:hover {
-    fill: red;
+
     color: #a9d4ff;
-    padding-right: 17px;
 
 }
 svg:hover {
@@ -92,6 +122,7 @@ svg:hover {
 
 .work-experience {
     margin-bottom: 0px;
+    min-width: max-content;
 }
 
 .skills {
@@ -141,21 +172,26 @@ svg:hover {
     flex-direction: row;
     justify-content: space-between;
 }
+.ll {
+margin: 1em;
+}
 
 .item {
     width: calc(33.333% - 2*56px/3); /* враховує проміжок між об'єктами */
     /* відступи та інші стилі для об'єктів */
 }
 .avatar {
-    margin: 80px 0 0 0;
-    width: 333px;
+
+    width: 100%;
 
 
     border-radius: 50%;
     box-shadow: 0px 0px 50px rgb(60 0 255), -5px -10px 60px #2a2881, 5px 10px 120px #21174f, -5px 10px 220px #104153, 5px -10px 220px #0a3336;
 }
 h3 {
-    font-size: 20px;
+    font-size: 1.55rem;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 @media (min-width: 421px) and (max-width: 768px){
     body {
@@ -187,20 +223,14 @@ h3 {
     /*    display: flex;*/
     /*    flex-direction: column;*/
     /*}*/
-    .avatar {
-        width: 262px;
-    }
-    span,p,a,li {
-        font-size: 11px;
-    }
-    h1 {
-        font-size: 31px;
-    }
+
+
+
     h2 {
         font-size: 10px;
     }
     h3 {
-        font-size: 17px !important;
+
     }
 }
 
@@ -210,20 +240,7 @@ h3 {
         height: 26px;
         width: 26px;
     }
-    .avatar {
-        width: 131px;
-    }
-    span,p,a,li {
-        font-size: 9px;
-    }
-    h1 {
-        font-size: 25px;
-    }
-    h2 {
-        font-size: 10px;
-    }
-    h3 {
-        font-size: 14px !important;
-    }
+
+
 }
 
