@@ -16,12 +16,11 @@ body {
     margin: 0 auto;
     padding: 0;
     color: #ffffff;
-
     text-shadow: 0 0 18px #2a51a8, 0 0 5px #007bff;
     background-image: url("./img/bg.png");
     background-color: rgba(17, 17, 21, 0.69);
     background-blend-mode: color-dodge; /* Adjust blend mode here */
-    box-shadow: inset 0 0 80px black;
+    box-shadow: 22px 0 300px rgb(60 0 255) !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -89,6 +88,7 @@ h2 {
     z-index: 99999;
     text-align: justify-all;
     top: 0;
+    box-shadow: -10px 0 400px rgb(60 0 255) !important;
 }
 
 .social-icons {
