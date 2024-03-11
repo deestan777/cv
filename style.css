@@ -23,7 +23,7 @@ body {
     box-shadow: 22px 0 300px rgb(60 0 255) !important;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
     height: 100%;
     min-width: max-content;
     min-height: 100vh;
